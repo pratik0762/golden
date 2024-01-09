@@ -6,10 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1> hello zalak</h1>
-        <h2> hello sister</h2>
-        <h1>this is the demo</h1>
-        <h1>thi sis the demo 2</h1>
-        <h1>Hello bro..</h1>
+        <h2>Hi pro gn.. jsk</h2>
         <h1>hello sister..!</h1>
 
         {/* thayu change  yes bro its done... */}
