@@ -5,6 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1> hello zalak</h1>
+        <h2> hello sister</h2>
+
+        {/* thayu change  yes bro its done... */}
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -23,3 +27,4 @@ function App() {
 }
 
 export default App;
+// have chat valu laav to...
