@@ -8,6 +8,7 @@ function App() {
         <h1> hello zalak</h1>
         <h2> hello sister</h2>
         <h1>this is the demo</h1>
+        <h1>thi sis the demo 2</h1>
 
         {/* thayu change  yes bro its done... */}
         <img src={logo} className="App-logo" alt="logo" />
