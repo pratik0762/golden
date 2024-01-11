@@ -1,38 +1,187 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: Inter
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*=========================================== top header ===========================================*/
+
+.w-100 {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.w-1500 {
+  width: 1500px;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.w-50 {
+  width: 50%;
+}
+
+.flex {
   display: flex;
-  flex-direction: column;
+}
+
+.align-item {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.pd-tb-10 {
+  padding: 10px 0px;
+}
+
+.bg-color-blue {
+  background-color: #224667;
+}
+
+.top-header {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.top-header .mail-info {
+  padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.top-header .mail-info .mail-add {
+  padding-left: 5px;
+}
+
+.top-header .contact-info .contact-number {
+  padding-left: 5px;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.align-item {
+  align-items: center;
+}
+
+.w-50 .soc-icon ul li {
+  padding-left: 5px;
+}
+
+/*======================================= bottom header =======================================*/
+
+.w-20{
+  width: 20%;
+  border: 1px solid red;
+}
+.w-60{
+  width: 60%;
+  border: 1px solid gray;
+}
+.bottom-header .w-60 ul li{
+  padding: 20px 10px;
+}
+
+.bottom-header .w-60 ul li:hover{
+  cursor: pointer;
+}
+
+.bottom-header .logo img:hover{
+  cursor: pointer;
+}
+
+.bottom-header .w-20 .login-button{
+  background-color: #224667;
+  color: white;
+  border-radius: 13px;
+  padding: 5px 35px 5px 5px ;
+}
+.bottom-header .w-20 .login-button:hover{
+  cursor: pointer;
+}
+.just-end{
+  justify-content: end;
+}
+
+.just-cen{
+  justify-content: center;
+}
+
+.bottom-header .w-20 .login-button .login-text{
+  padding-left: 5px;
+}
+
+
+
+
+/*======================================= media query =======================================*/
+
+@media (max-width : 426px) {
+  .top-header .w-1500 {
+    width: 100%;
+    /* width: 1500px; */
   }
-  to {
-    transform: rotate(360deg);
+  
+  .top-header .w-1500 .w-50 {
+    max-width: 100%;
+  }
+  
+  .top-header .w-50 {
+    width: 100%;
+  }
+  
+  .top-header .w-1500>.flex {
+    display: block;
+  }
+
+  .top-header .w-50 .info {
+    display: block;
+    width: 100%;
+  }
+
+  .top-header .w-50 .mail-info {
+    padding: 10px 0px;
+  }
+
+  .top-header .w-50 .contact-info {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-header .w-50 .mail-info {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-header .w-50 .soc-icon {
+    justify-content: center;
+  }
+}
+
+@media (min-width : 426px) and (max-width : 769px) {
+  .top-header .w-1500 {
+    width: 100%;
+  }
+
+  .top-header {
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width : 769px) and (max-width : 1025px) {
+  .top-header .w-1500 {
+    width: 100%;
+  }
+
+  .top-header {
+    padding: 10px 10px;
+  }
+}
+
+@media (min-width : 1025px) and (max-width : 1441px) {
+  .top-header .w-1500 {
+    width: 100%;
+  }
+
+  .top-header {
+    padding: 10px 10px;
   }
 }
