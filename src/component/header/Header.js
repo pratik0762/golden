@@ -367,49 +367,7 @@ export const Header = () => {
         </div>
       </div>
 
-      {/* <div className="w-100 bottom-header desktop-view">
-        <div className="w-1500">
-          <div className="flex align-item">
-            <div className="w-20 logo">
-                <img src={Rankoptim_logo} alt="" />
-            </div>
-            <div className="w-60 flex align-item nav-cat">
-              <ul className="flex align-item">
-                <li>About</li>
-                <li>Services</li>
-                <li>Solutions</li>
-                <li>Machines</li>
-                <li>Training</li>
-                <li>Resources</li>
-                <li>Free Tools</li>
-              </ul>
-            </div>
-            <div className="w-20 flex align-item login just-end">
-              <div className="login-button">
-                <div className="flex align-item">
-                  <div className="login-icon">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 20 20"
-                      fill="none"
-                    >
-                      <path
-                        d="M20 15.625C20 14.7962 19.6712 14.0012 19.085 13.415C18.4987 12.8287 17.7038 12.5 16.875 12.5C14.3088 12.5 10.6912 12.5 8.125 12.5C7.29625 12.5 6.50125 12.8287 5.915 13.415C5.32875 14.0012 5 14.7962 5 15.625V18.75H20C20 18.75 20 17.6837 20 15.625ZM3.75 16.25H0C0 16.25 0 15.1837 0 13.125C0 12.2962 0.32875 11.5012 0.915 10.915C1.50125 10.3287 2.29625 10 3.125 10H8.17C8.4425 10.47 8.78875 10.8925 9.19375 11.25H8.125C5.70875 11.25 3.75 13.2087 3.75 15.625V16.25ZM12.5 3.75C14.57 3.75 16.25 5.43 16.25 7.5C16.25 9.57 14.57 11.25 12.5 11.25C10.43 11.25 8.75 9.57 8.75 7.5C8.75 5.43 10.43 3.75 12.5 3.75ZM7.6575 8.74625C7.605 8.74875 7.5525 8.75 7.5 8.75C5.43 8.75 3.75 7.07 3.75 5C3.75 2.93 5.43 1.25 7.5 1.25C8.7825 1.25 9.915 1.895 10.5912 2.8775C8.7775 3.62875 7.5 5.41625 7.5 7.5C7.5 7.93 7.555 8.34875 7.6575 8.74625Z"
-                        fill="white"
-                      />
-                    </svg>
-                  </div>
-                  <div className="login-text">LOGIN</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="w-100 bottom-header desktop-view">
+      <div className="w-100 bottom-header desktop-view">
         <div className="w-1500">
           <div className="flex align-item">
             <div className="w-20 logo">
@@ -449,7 +407,32 @@ export const Header = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
+
+      <div className="w-100 mobile-tab-view">
+        <div className="flex align-item">
+          <div className="w-20 bar">
+            <div className="bar-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 72 48"
+                fill="none"
+              >
+                <path
+                  d="M0 48H72V40H0V48ZM0 28H72V20H0V28ZM0 0V8H72V0H0Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+          </div>
+          <div className="w-60 logo flex just-cen">
+            <img src={Rankoptim_logo} alt="" />
+          </div>
+          <div className="w-20">world</div>
+        </div>
+      </div>
     </header>
   );
 };

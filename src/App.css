@@ -70,11 +70,9 @@
 
 .w-20{
   width: 20%;
-  border: 1px solid red;
 }
 .w-60{
   width: 60%;
-  border: 1px solid gray;
 }
 .bottom-header .w-60 ul li{
   padding: 20px 10px;
@@ -92,7 +90,7 @@
   background-color: #224667;
   color: white;
   border-radius: 13px;
-  padding: 5px 35px 5px 5px ;
+  padding: 5px 35px 5px 10px ;
 }
 .bottom-header .w-20 .login-button:hover{
   cursor: pointer;
@@ -109,15 +107,21 @@
   padding-left: 5px;
 }
 
+.desktop-view , .mobile-tab-view{
+  padding: 0px 10px;
+}
 
+.mobile-tab-view{
+  display: none;
+}
 
 
 /*======================================= media query =======================================*/
 
+/* mobile */
 @media (max-width : 426px) {
-  .top-header .w-1500 {
+  .w-1500 {
     width: 100%;
-    /* width: 1500px; */
   }
   
   .top-header .w-1500 .w-50 {
@@ -154,20 +158,29 @@
   .top-header .w-50 .soc-icon {
     justify-content: center;
   }
+
+  .desktop-view{
+    display: none;
+  }
 }
 
+/* tab */
+
 @media (min-width : 426px) and (max-width : 769px) {
-  .top-header .w-1500 {
+  .w-1500 {
     width: 100%;
   }
 
   .top-header {
     padding: 10px 10px;
   }
+  .desktop-view{
+    display: none;
+  }
 }
 
 @media (min-width : 769px) and (max-width : 1025px) {
-  .top-header .w-1500 {
+  .w-1500{
     width: 100%;
   }
 
@@ -177,7 +190,7 @@
 }
 
 @media (min-width : 1025px) and (max-width : 1441px) {
-  .top-header .w-1500 {
+  .w-1500 {
     width: 100%;
   }
 
